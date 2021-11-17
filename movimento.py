@@ -80,7 +80,7 @@ def criarmapabfs(altura, largura, porcentagem):
         
         os.system('cls')
         for i in mapa: print(i)
-        print('Gerando mapa...')
+        print('Generating map...')
         
         for linha in mapa:
             for i in linha:
@@ -166,7 +166,7 @@ def criarmapadfs(altura, largura, porcentagem):
         
         os.system('cls')
         for i in mapa: print(i)
-        print('Gerando mapa...')
+        print('Generating map...')
         
         for linha in mapa:
             for i in linha:
@@ -247,8 +247,8 @@ def iniciarjogo(altura, largura, porcentagem, bfsdfs):
                 os.system('cls')
                 
                 for i in mapa: print(i)
-                print(f'Posição atual: ({pegarposição(mapa)[0]+1}, {pegarposição(mapa)[1]})')
-                print(f'Saída: ({chegada[0]+1}, {chegada[1]+1})')
+                print(f'Current position: ({pegarposição(mapa)[0]+1}, {pegarposição(mapa)[1]})')
+                print(f'Objective: ({chegada[0]+1}, {chegada[1]+1})')
 
                 bonecoestaem = (pegarposição(mapa)[0], pegarposição(mapa)[1])
 
