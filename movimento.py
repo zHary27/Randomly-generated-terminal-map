@@ -1,5 +1,9 @@
 import os
-import keyboard
+try:
+    import keyboard
+except:
+    os.system('pip install keyboard')
+    import keyboard
 import time
 import random
 
